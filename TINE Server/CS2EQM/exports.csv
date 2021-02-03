@@ -1,0 +1,13 @@
+EXPORT_NAME,LOCAL_NAME,PROPERTY,PROPERTY_SIZE,FORMAT,PROPERTY_INSIZE,INFORMAT,PROPERTY_ID,ACCESS,NUM_MODULES,DESCRIPTION,NUM_STEPS
+P14Cryostream,CS2EQM,SampleTemp,1,double,0,null,1,read,1,Sample Temperature (K),0
+P14Cryostream,CS2EQM,EvapTemp,1,double,0,null,2,read,1,Evaporation Temperature (K),0
+P14Cryostream,CS2EQM,SuctTemp,1,double,0,null,3,read,1,Suction Temperature (K),0
+P14Cryostream,CS2EQM,GasHeat,1,double,0,null,4,read,1,Gas Heat (%),0
+P14Cryostream,CS2EQM,EvapHeat,1,double,0,null,5,read,1,Evaporation Heat (%),0
+P14Cryostream,CS2EQM,SuctHeat,1,double,0,null,6,read,1,Suction Heat (%),0
+P14Cryostream,CS2EQM,GasFlow,1,double,0,null,7,read,1,Gas Flow (l/min),0
+P14Cryostream,CS2EQM,BackPressure,1,double,0,null,8,read,1,Back Pressure (mbar),0
+P14Cryostream,CS2EQM,ValveOpening,1,double,0,null,9,read,1,Valve opening (%),0
+P14Cryostream,CS2EQM,SetTemp,0,null,1,double,10,write,1,Set temperature (K),0
+P14Cryostream,CS2EQM,PhaseStatus,256,char,0,null,11,read,1,Phase Status,0
+P14Cryostream,CS2EQM,Connection,256,char,0,null,12,read,1,Connection Status,0
